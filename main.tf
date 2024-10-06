@@ -8,7 +8,7 @@ provider "aws" {
 
 module "backbones-resources" {
   source  = "dinhdobathi1992/backbones-resources/aws"
-  version = "0.2.0"
+  version = "0.3.0"
   vpc_name = var.vpc_name
   region = var.region
   public_subnets = var.public_subnets
